@@ -77,7 +77,7 @@ export const LandingPage = () => {
 
   return (
     <StyledBackground>
-      <StyledHeader>Countdown to christmas</StyledHeader>
+      <StyledHeader>Countdown to Christmas</StyledHeader>
       <CountContainer>
         <CountdownDiv alt>
           <h2>Days</h2>
@@ -118,7 +118,7 @@ export const LandingPage = () => {
           rows="4"
           cols="50"
           maxLength="250"
-          placeholder="Write a christmas greeting"
+          placeholder="Write a Christmas greeting"
           value={message}
           onInput={(e) => submit(e)}
           required
