@@ -20,6 +20,7 @@ export const StyledHeader = styled.h1`
 // Container for countdown
 export const CountContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 1em;
