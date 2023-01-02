@@ -30,7 +30,7 @@ export const LandingPage = () => {
   const [storage, setStorage] = useState(storedMessage);
 
   // Countdown to this date
-  const christmas = "December, 24, 2022";
+  const christmas = "December, 24, 2023";
 
   const getTime = () => {
     // Time in milliseconds from now until christmas
