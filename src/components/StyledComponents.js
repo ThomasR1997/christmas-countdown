@@ -39,7 +39,9 @@ export const CountdownDiv = styled.div`
 `;
 
 // Styles for the textarea
-export const StyledMessage = styled.textarea`
+export const StyledMessage = styled.textarea.attrs({
+  placeholderColor: "red",
+})`
   resize: none;
   background-color: #bc4749;
   color: #f2e8cf;
@@ -48,6 +50,16 @@ export const StyledMessage = styled.textarea`
   margin-top: 5em;
   padding: 1em;
   font-family: "Mountains of Christmas", cursive;
+
+  ::placeholder,
+  ::-webkit-input-placeholder {
+    color: #f2e8cf;
+    opacity: 1;
+  }
+  :-ms-input-placeholder {
+    color: #f2e8cf;
+    opacity: 1;
+  }
 `;
 
 // Styles for the submit button

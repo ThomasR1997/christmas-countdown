@@ -29,8 +29,11 @@ export const LandingPage = () => {
   // State for localstorage
   const [storage, setStorage] = useState(storedMessage);
 
+  // Get current date and year
+  const currentYear = new Date().getFullYear();
+
   // Countdown to this date
-  const christmas = "December, 24, 2023";
+  const christmas = `December, 24, ${currentYear}`;
 
   const getTime = () => {
     // Time in milliseconds from now until christmas
